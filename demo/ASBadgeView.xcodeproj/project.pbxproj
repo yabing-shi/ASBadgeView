@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00006151E94FA75003D8908 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B00006141E94FA75003D8908 /* main.m */; };
+		B00006181E94FA75003D8908 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B00006171E94FA75003D8908 /* AppDelegate.m */; };
+		B000061B1E94FA75003D8908 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B000061A1E94FA75003D8908 /* ViewController.m */; };
+		B000061E1E94FA75003D8908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B000061C1E94FA75003D8908 /* Main.storyboard */; };
+		B00006201E94FA75003D8908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B000061F1E94FA75003D8908 /* Assets.xcassets */; };
+		B00006231E94FA75003D8908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00006211E94FA75003D8908 /* LaunchScreen.storyboard */; };
+		B000062E1E94FA76003D8908 /* ASBadgeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B000062D1E94FA76003D8908 /* ASBadgeViewTests.m */; };
+		B00006391E94FA76003D8908 /* ASBadgeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B00006381E94FA76003D8908 /* ASBadgeViewUITests.m */; };
+		B000064A1E94FB54003D8908 /* ASBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B00006491E94FB54003D8908 /* ASBadgeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B000062A1E94FA76003D8908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00006081E94FA75003D8908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B000060F1E94FA75003D8908;
+			remoteInfo = ASBadgeView;
+		};
+		B00006351E94FA76003D8908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00006081E94FA75003D8908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B000060F1E94FA75003D8908;
+			remoteInfo = ASBadgeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B00006101E94FA75003D8908 /* ASBadgeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASBadgeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00006141E94FA75003D8908 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B00006161E94FA75003D8908 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B00006171E94FA75003D8908 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B00006191E94FA75003D8908 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B000061A1E94FA75003D8908 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B000061D1E94FA75003D8908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B000061F1E94FA75003D8908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00006221E94FA75003D8908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B00006241E94FA75003D8908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00006291E94FA76003D8908 /* ASBadgeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASBadgeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B000062D1E94FA76003D8908 /* ASBadgeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASBadgeViewTests.m; sourceTree = "<group>"; };
+		B000062F1E94FA76003D8908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00006341E94FA76003D8908 /* ASBadgeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASBadgeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00006381E94FA76003D8908 /* ASBadgeViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASBadgeViewUITests.m; sourceTree = "<group>"; };
+		B000063A1E94FA76003D8908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00006481E94FB54003D8908 /* ASBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBadgeView.h; sourceTree = "<group>"; };
+		B00006491E94FB54003D8908 /* ASBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBadgeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B000060D1E94FA75003D8908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00006261E94FA76003D8908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00006311E94FA76003D8908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B00006071E94FA75003D8908 = {
+			isa = PBXGroup;
+			children = (
+				B00006121E94FA75003D8908 /* ASBadgeView */,
+				B000062C1E94FA76003D8908 /* ASBadgeViewTests */,
+				B00006371E94FA76003D8908 /* ASBadgeViewUITests */,
+				B00006111E94FA75003D8908 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B00006111E94FA75003D8908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00006101E94FA75003D8908 /* ASBadgeView.app */,
+				B00006291E94FA76003D8908 /* ASBadgeViewTests.xctest */,
+				B00006341E94FA76003D8908 /* ASBadgeViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B00006121E94FA75003D8908 /* ASBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				B00006471E94FB54003D8908 /* badgeView */,
+				B00006161E94FA75003D8908 /* AppDelegate.h */,
+				B00006171E94FA75003D8908 /* AppDelegate.m */,
+				B00006191E94FA75003D8908 /* ViewController.h */,
+				B000061A1E94FA75003D8908 /* ViewController.m */,
+				B000061C1E94FA75003D8908 /* Main.storyboard */,
+				B000061F1E94FA75003D8908 /* Assets.xcassets */,
+				B00006211E94FA75003D8908 /* LaunchScreen.storyboard */,
+				B00006241E94FA75003D8908 /* Info.plist */,
+				B00006131E94FA75003D8908 /* Supporting Files */,
+			);
+			path = ASBadgeView;
+			sourceTree = "<group>";
+		};
+		B00006131E94FA75003D8908 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B00006141E94FA75003D8908 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B000062C1E94FA76003D8908 /* ASBadgeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B000062D1E94FA76003D8908 /* ASBadgeViewTests.m */,
+				B000062F1E94FA76003D8908 /* Info.plist */,
+			);
+			path = ASBadgeViewTests;
+			sourceTree = "<group>";
+		};
+		B00006371E94FA76003D8908 /* ASBadgeViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B00006381E94FA76003D8908 /* ASBadgeViewUITests.m */,
+				B000063A1E94FA76003D8908 /* Info.plist */,
+			);
+			path = ASBadgeViewUITests;
+			sourceTree = "<group>";
+		};
+		B00006471E94FB54003D8908 /* badgeView */ = {
+			isa = PBXGroup;
+			children = (
+				B00006481E94FB54003D8908 /* ASBadgeView.h */,
+				B00006491E94FB54003D8908 /* ASBadgeView.m */,
+			);
+			path = badgeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B000060F1E94FA75003D8908 /* ASBadgeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B000063D1E94FA76003D8908 /* Build configuration list for PBXNativeTarget "ASBadgeView" */;
+			buildPhases = (
+				B000060C1E94FA75003D8908 /* Sources */,
+				B000060D1E94FA75003D8908 /* Frameworks */,
+				B000060E1E94FA75003D8908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASBadgeView;
+			productName = ASBadgeView;
+			productReference = B00006101E94FA75003D8908 /* ASBadgeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B00006281E94FA76003D8908 /* ASBadgeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00006401E94FA76003D8908 /* Build configuration list for PBXNativeTarget "ASBadgeViewTests" */;
+			buildPhases = (
+				B00006251E94FA76003D8908 /* Sources */,
+				B00006261E94FA76003D8908 /* Frameworks */,
+				B00006271E94FA76003D8908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B000062B1E94FA76003D8908 /* PBXTargetDependency */,
+			);
+			name = ASBadgeViewTests;
+			productName = ASBadgeViewTests;
+			productReference = B00006291E94FA76003D8908 /* ASBadgeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B00006331E94FA76003D8908 /* ASBadgeViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00006431E94FA76003D8908 /* Build configuration list for PBXNativeTarget "ASBadgeViewUITests" */;
+			buildPhases = (
+				B00006301E94FA76003D8908 /* Sources */,
+				B00006311E94FA76003D8908 /* Frameworks */,
+				B00006321E94FA76003D8908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00006361E94FA76003D8908 /* PBXTargetDependency */,
+			);
+			name = ASBadgeViewUITests;
+			productName = ASBadgeViewUITests;
+			productReference = B00006341E94FA76003D8908 /* ASBadgeViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B00006081E94FA75003D8908 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = shiyabing;
+				TargetAttributes = {
+					B000060F1E94FA75003D8908 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 35V98WX3X4;
+						ProvisioningStyle = Automatic;
+					};
+					B00006281E94FA76003D8908 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B000060F1E94FA75003D8908;
+					};
+					B00006331E94FA76003D8908 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B000060F1E94FA75003D8908;
+					};
+				};
+			};
+			buildConfigurationList = B000060B1E94FA75003D8908 /* Build configuration list for PBXProject "ASBadgeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B00006071E94FA75003D8908;
+			productRefGroup = B00006111E94FA75003D8908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B000060F1E94FA75003D8908 /* ASBadgeView */,
+				B00006281E94FA76003D8908 /* ASBadgeViewTests */,
+				B00006331E94FA76003D8908 /* ASBadgeViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B000060E1E94FA75003D8908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00006231E94FA75003D8908 /* LaunchScreen.storyboard in Resources */,
+				B00006201E94FA75003D8908 /* Assets.xcassets in Resources */,
+				B000061E1E94FA75003D8908 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00006271E94FA76003D8908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00006321E94FA76003D8908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B000060C1E94FA75003D8908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B000061B1E94FA75003D8908 /* ViewController.m in Sources */,
+				B000064A1E94FB54003D8908 /* ASBadgeView.m in Sources */,
+				B00006181E94FA75003D8908 /* AppDelegate.m in Sources */,
+				B00006151E94FA75003D8908 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00006251E94FA76003D8908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B000062E1E94FA76003D8908 /* ASBadgeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00006301E94FA76003D8908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00006391E94FA76003D8908 /* ASBadgeViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B000062B1E94FA76003D8908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B000060F1E94FA75003D8908 /* ASBadgeView */;
+			targetProxy = B000062A1E94FA76003D8908 /* PBXContainerItemProxy */;
+		};
+		B00006361E94FA76003D8908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B000060F1E94FA75003D8908 /* ASBadgeView */;
+			targetProxy = B00006351E94FA76003D8908 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B000061C1E94FA75003D8908 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B000061D1E94FA75003D8908 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B00006211E94FA75003D8908 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00006221E94FA75003D8908 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B000063B1E94FA76003D8908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B000063C1E94FA76003D8908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B000063E1E94FA76003D8908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35V98WX3X4;
+				INFOPLIST_FILE = ASBadgeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendaiUp.XiangshangClub.ASBadgeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B000063F1E94FA76003D8908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35V98WX3X4;
+				INFOPLIST_FILE = ASBadgeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendaiUp.XiangshangClub.ASBadgeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B00006411E94FA76003D8908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ASBadgeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendaiUp.XiangshangClub.ASBadgeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASBadgeView.app/ASBadgeView";
+			};
+			name = Debug;
+		};
+		B00006421E94FA76003D8908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ASBadgeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendaiUp.XiangshangClub.ASBadgeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASBadgeView.app/ASBadgeView";
+			};
+			name = Release;
+		};
+		B00006441E94FA76003D8908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ASBadgeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendaiUp.XiangshangClub.ASBadgeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ASBadgeView;
+			};
+			name = Debug;
+		};
+		B00006451E94FA76003D8908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ASBadgeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendaiUp.XiangshangClub.ASBadgeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ASBadgeView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B000060B1E94FA75003D8908 /* Build configuration list for PBXProject "ASBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B000063B1E94FA76003D8908 /* Debug */,
+				B000063C1E94FA76003D8908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B000063D1E94FA76003D8908 /* Build configuration list for PBXNativeTarget "ASBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B000063E1E94FA76003D8908 /* Debug */,
+				B000063F1E94FA76003D8908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00006401E94FA76003D8908 /* Build configuration list for PBXNativeTarget "ASBadgeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00006411E94FA76003D8908 /* Debug */,
+				B00006421E94FA76003D8908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00006431E94FA76003D8908 /* Build configuration list for PBXNativeTarget "ASBadgeViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00006441E94FA76003D8908 /* Debug */,
+				B00006451E94FA76003D8908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B00006081E94FA75003D8908 /* Project object */;
+}
