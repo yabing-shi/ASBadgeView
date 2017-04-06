@@ -33,10 +33,13 @@ typedef NS_ENUM(NSInteger,ASBadgeType){
  *  @author shiyabing, 16-02-24 17:02:05
  *
  *  @brief 在常规视图上显示badge
- *
+ *  @param size badgeView的size
+ *  @param font badgeView的font
  *  @param badgeValue 要显示的字符串
  *  @param badgeType  badge类型
  *  @param parentView 父视图
+ *  @param edges 位置偏移量
+ *  @param border 是否需要边框
  */
 - (void)showBadgeWithFrame:(CGSize)size font:(CGFloat)font badgeValue:(NSString *)badgeValue badgeType:(ASBadgeType)badgeType parentView:(UIView *)parentView edges:(UIEdgeInsets)edges needBorder:(BOOL)border;
 
